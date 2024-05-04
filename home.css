@@ -1,0 +1,43 @@
+.logo{
+    text-align: center;
+}
+
+.logo h2{
+    color: blue;
+    background-color: greenyellow;
+}
+
+.logo p{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 7px;
+    background-color: black;
+    font-family: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+ #additional-links {
+    text-align: center; /* Center align the content */
+    color: blue; /* Set the text color to blue */
+} 
+.link-items{
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 70px;
+    margin-top: 70px;
+}
+
+.link-items a{
+    color: lightseagreen;
+}
+
+#additional-links a {
+    font-size: 18px;
+}
+
+
+
