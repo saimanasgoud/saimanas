@@ -45,7 +45,7 @@ body{
     padding-left: 20px;
     text-align: left;
     font-size: large;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 .home-right{
     width: 50vw;
@@ -70,8 +70,8 @@ body{
 .services{
     padding: 50px;
     text-align: center;
-    margin-top: 30px;
-   
+    margin-top: 10px;
+    margin-bottom: 0px;   
 }
 .ser-h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -79,7 +79,7 @@ body{
     font-size: 50px;
     letter-spacing: 3px;
     font-style: italic;
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 .ser-h2{
@@ -88,7 +88,7 @@ body{
     font-size: 50px;
     letter-spacing: 3px;
     font-style: italic;
-    margin-top: 0%;
+    margin-top: 10%;
 }
 
 .services-sub-cont{
@@ -113,7 +113,7 @@ body{
 .contact{
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 00px;
+    margin-bottom: 0px;
 }
 .contact-info{
     font-family: 'montserrat', sams-serif;
@@ -159,4 +159,8 @@ body{
     
 }
 
-
+.color{
+    color: rgb(185, 239, 22);
+    font-size: 20px;
+    font-weight: 30px;
+}
