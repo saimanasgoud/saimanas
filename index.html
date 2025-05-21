@@ -2,14 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="portfolio.jpg" style="border-radius:  50%;"/>
+    <link rel="icon" type="image/svg+xml" href="portfolio.jpg" style="border-radius:  50%;" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sai manas Portfolio</title>
-    <script type="module" crossorigin src="/saimanas/assets/index-CD7jPRQD.js"></script>
-    <link rel="stylesheet" crossorigin href="/saimanas/assets/index-CtMFMILa.css">
+
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      #preloader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: sans-serif;
+        font-weight: 500;
+        color: #555;
+      }
+
+      .spinner {
+        width: 60px;
+        height: 60px;
+        border: 5px solid #ccc;
+        border-top: 5px solid #3498db;
+        border-radius: 50%;
+        animation: spin s linear infinite;
+        margin-bottom: 10px;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/saimanas/assets/index-BlOIyx8Y.js"></script>
+    <link rel="stylesheet" crossorigin href="/saimanas/assets/index-Cb42MWJQ.css">
   </head>
-  
+
   <body>
-    <div id="root">Loading Please Wait....</div>
+    <!-- ✅ Preloader visible before React mounts -->
+    <div id="root">
+      <div id="preloader">
+        <div class="spinner"></div>
+        <p>Loading, please wait...</p>
+      </div>
+    </div>
+
   </body>
 </html>
